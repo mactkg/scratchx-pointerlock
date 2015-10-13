@@ -1,60 +1,10 @@
-# scratchx-template
-A template project for rapid creation of scratchx extension.
+# scratchx-ifttt
+A scratchx extension to lock the pointer.
 
-## How to use
+Inspired by this topic: <https://scratch.mit.edu/discuss/topic/158162/>
 
-### 1. Register <http://ngrok.com> and configure
-
-### 2. Clone it
-
-```
-$ git clone https://github.com/mactkg/scratchx-template.git your-ext
-$ cd your-ext
-$ npm install
-```
-
-### 3. Define blocks
-
-Block descriptor and title informations are stored in `src/data.json`.  Edit there to define blocks.
-
-### 4. Write codes
-
-Core codes of an extension is located in `src/ext.js`.  Write some codes there.  You can use browserifiable node.js libraries.
-
-### 5. Try it
-
-```
-$ gulp
-```
-
-## Deploy
-
-### 1. Fork this repo
-
-### 2. Add the repo as a remote
-
-```
-$ git remote add YOURID git@github.com:YOURID/your-ext.git
-```
-
-### 3. Push it
-
-```
-$ git push -u YOURID master
-```
-
-### 4. Add the following 2 lines to the `[remote YOURID]` section of `.git/config`
-
-```
-push = refs/heads/master:refs/heads/gh-pages
-push = refs/heads/master:refs/heads/master
-```
-
-### 5. Re-push
-
-```
-$ git push
-```
+- [Try in English](http://scratchx.org/?url=http://makerbox.net/scratchx-pointerlock/scripts.js#scratch)
+- [日本語で試す](http://scratchx.org/?url=http://makerbox.net/scratchx-pointerlock/scripts.js&lang=ja#scratch)
 
 ## License
 MIT License
