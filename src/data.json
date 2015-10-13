@@ -1,15 +1,23 @@
 // definition of blocks
 {
-  title: "scratchx-template",
+  title: "scratchx-pointerlock",
   descriptor: {
     en: {
       blocks: [
-        [' ', 'my first block: %n', 'myFirstBlock', 'val1']
+        [' ', 'Enable pointer lock', 'lock'],
+        [' ', 'Disable pointer lock', 'unlock'],
+        ['r', 'movement of mouse x', 'getMovementX'],
+        ['r', 'movement of mouse y', 'getMovementY'],
+        ['h', 'When pointer moved', 'whenMoved']
       ]
     },
     ja: {
       blocks: [
-        [' ', '最初のブロック: %n', 'myFirstBlock', '値1']
+        [' ', 'マウスロックを有効にする', 'lock'],
+        [' ', 'マウスロックを無効にする', 'unlock'],
+        ['r', 'x座標の移動量', 'getMovementX'],
+        ['r', 'y座標の移動量', 'getMovementY'],
+        ['h', 'マウスが動いたとき', 'whenMoved']
       ]
     }
   }
