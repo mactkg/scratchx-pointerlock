@@ -1,4 +1,4 @@
-# scratchx-ifttt
+# scratchx-pointerlock
 A scratchx extension to lock the pointer.
 
 Inspired by this topic: <https://scratch.mit.edu/discuss/topic/158162/>
